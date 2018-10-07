@@ -1,7 +1,7 @@
-/* Copyright 2017, Umayanga Sandeepa.
+/* Copyright 2018, Umayanga Sandeepa.
  *
  * Portions adapted from Mx's data/style/default.css
- *   Copyright 2017 Umayanga Sandeepa.
+ *   Copyright 2018 Umayanga Sandeepa.
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms and conditions of the GNU General Public License,
@@ -150,21 +150,6 @@ StScrollBar StButton#vhandle:active {
 
 /* Slider */
 
-/* .slider {
-    height: 0em;
-    width: 0.3em;
-    -slider-height: 0.1em;
-    -slider-background-color: rgba(50,50,50,.7);
-    -slider-border-color:transparent;
-    -slider-active-background-color: #0087D4; 
-    -slider-active-border-color:rgba(0,135,212,0.2);
-    -slider-active-background-color:rgba(41,33,33,.8);
-    -slider-active-border-color:rgba(41,33,33,.8);
-    -slider-border-width: 1px;
-    -slider-handle-radius: 6px;
-    color: white;
-} */
-
 .slider {
   height: 16px;
   color: #292121;
@@ -176,7 +161,17 @@ StScrollBar StButton#vhandle:active {
   -slider-active-background-color: #292121;
   -slider-active-border-color: transparent;
   -slider-border-width: 0;
-  -slider-handle-radius: 5px; }
+  -slider-handle-radius: 5px;
+/*GNOME 3.30*/
+  -barlevel-height: 2px;
+  -barlevel-background-color: rgba(50,50,50,.7);
+  -barlevel-border-color: transparent;
+  -barlevel-active-background-color: #292121;
+  -barlevel-active-border-color: transparent;
+  -barlevel-overdrive-color: #292121;
+  -barlevel-overdrive-border-color: transparent;
+  -barlevel-overdrive-separator-width: 2px;
+  -barlevel-border-width: 0;}
 
 
 /* PopupMenu */
@@ -1165,8 +1160,8 @@ transition-duration:300ms;
 
 .icon-grid {/*30 136 136*/
     spacing: 30px;
-    -shell-grid-horizontal-item-size: 128px;
-    -shell-grid-vertical-item-size: 128px;
+    -shell-grid-horizontal-item-size: 140px;
+    -shell-grid-vertical-item-size: 140px;
     icon-size: 96px;
 }
 
