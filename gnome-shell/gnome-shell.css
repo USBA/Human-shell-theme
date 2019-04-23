@@ -1,7 +1,7 @@
-/* Copyright 2018, Umayanga Sandeepa.
+/* Copyright 2019, Umayanga Sandeepa.
  *
  * Portions adapted from Mx's data/style/default.css
- *   Copyright 2018 Umayanga Sandeepa.
+ *   Copyright 2019 Umayanga Sandeepa.
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms and conditions of the GNU General Public License,
@@ -3037,6 +3037,23 @@ NEW ON GNOME 3.18
 /* Profile PHOTO */
 
 .system-switch-user-submenu-icon.user-icon {
+  icon-size: 20px;
+  padding: 0 2px;
+}
+
+.system-switch-user-submenu-icon.default-icon {
+  icon-size: 16px;
+  padding: 0 4px;
+  border: none;
+}
+
+.system-switch-user-submenu-icon {
+  icon-size: 16px;
+  padding: 0 4px;
+  border: none;
+}
+/*
+.system-switch-user-submenu-icon.user-icon {
   icon-size: 32px;
   padding: 0px;
   border: 0px;
@@ -3046,7 +3063,7 @@ NEW ON GNOME 3.18
   icon-size: 16px;
   padding: 2px;
   border: 0px;
-  border-radius:16px}
+  border-radius:16px} */
 
 /* Running App */
 .app-well-app.running > .overview-icon {
